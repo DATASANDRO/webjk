@@ -1,1 +1,1 @@
-pagina web sobre jkanime aricel
+pagina web sobre jkanime animes
