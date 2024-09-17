@@ -2,6 +2,11 @@
 
 let ima=document.querySelectorAll(".indexima");
 
+let $cuerpo=document.querySelector("body");
+let $cabe=document.querySelector("header");
+let $item=document.querySelectorAll("li.item-menu");
+
+
 let inicial=1;
 
 mover(inicial);
@@ -44,3 +49,23 @@ function moverse(){
 
 
 
+// function noche(){
+//     $cuerpo.style.backgroundColor="#30323f"
+//     $cabe.style.backgroundColor="#1f212b"
+
+//     for (lista of $item){
+//         lista.style.backgroundColor="#484b66"
+//     }
+
+    
+// }
+
+function noche(){
+    $cuerpo.classList.toggle("negro")
+    $cabe.classList.toggle("cabe")
+    
+    for (lista of $item){
+          lista.classList.toggle("negro")
+      }
+    
+}
